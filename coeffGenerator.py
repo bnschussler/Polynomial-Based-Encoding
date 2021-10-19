@@ -48,6 +48,6 @@ print(getCoeffs([["Example input 1","Example output 1"],
 				 ["Top text","Bottom Text"],
 				 ["password:pyhonRocks1234","Your social security number is:7489A1273412"],
 				 ["This should work for any number of inputs/responses","just add more/remove some entries"],
-				 ["If the outputs don't work, you might need to increase the values that say \"[100,300]\"","especially if your inputs are long"]],	#change this part to change the input/output text
+				 ["If the outputs don't work, you might need to increase the values that say \"[200,300]\"","especially if your inputs are long"]],	#change this part to change the input/output text
 				 "<START FLAG>","<END FLAG>",[5,10],[200,300]))
 #print(np.linalg.inv(vandermonde))
