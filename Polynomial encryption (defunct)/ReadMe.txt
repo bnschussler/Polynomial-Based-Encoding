@@ -1,4 +1,4 @@
-NOTE: This iteration of the project is defunct, as there is a trivial method to find the supposedly secret data (i.e. finding the zeros of the polynomial). 
+NOTE: This iteration of the project is defunct, as there is a trivial method to find the supposedly secret data (i.e. finding the zeros of the polynomial). I have left all the origional files in this folder unedited (besides adding this disclaimer).
 
 The idea behind this project:
 Given n points, there is a polynomial of at least degree n that goes through every point. Since strings can be represented as integers, we can make a degree-n polynomial that converts n input strings to n specific output strings. You could, for instance, make several private pieces of information that are only accessible by inputting a passphrase.
