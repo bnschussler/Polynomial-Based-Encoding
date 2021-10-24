@@ -33,10 +33,11 @@ def getCoeff(points,frontpadrange=[0,0],endpadrange=[0,0],startflag="",endflag="
 	return(coeff)
 
 a=getCoeff([["Example input 1","output 1"],	#here are some preset answers. just press enter to get the value of coeff for these answer/response pairs.
-				 ["Top text","Bottom Text"],
-				 ["password:pyhonRocks1234","Your social security number is:7489A1273412"],
-				 ["This should work for any number of inputs/responses; just add/revome some entries.","One thing to note is that an input can't be longer than its output's position in the unfiltered output string, or some of the input key will be redundant and not affect the output message."], 
-				 																																				# not sure if that makes sense; a good example of this with these presets is inputting "qWeRtYu input 1" with the the end padding set to zero,
-				 																																				# which should give the same result as "Example input 1", because the extra characters are too large to affect values in the spot of the output string where "output 1" is.
-				 ["You can always increase the end padding though","which should fix the issue."]],[0,10],[0,10],"<STARTFLAG>","<ENDFLAG>")
+		["Top text","Bottom Text"],
+		["password:pyhonRocks1234","Your social security number is:7489A1273412"],
+		["This should work for any number of inputs/responses; just add/revome some entries.","One thing to note is that an input can't be longer than its output's position in the unfiltered output string, or some of the input key will be redundant and not affect the output message."], 
+				 												# not sure if that makes sense; a good example of this is if you set the padding to zero with these text presets, and try inputting "qWeRtYu input 1" ,
+				 												# which should give the same result as "Example input 1", because the extra characters are too large numerically to affect values in the spot of the output string where "output 1" is.
+		["You can always increase the end padding though","which should fix the issue."]],
+	   	[0,10],[0,10],"<STARTFLAG>","<ENDFLAG>")
 print(a)
