@@ -7,7 +7,7 @@ def response(s):	#get response from a string
 	temp=numToStr(f(strToNum(s)))
 	startFlag="<STARTFLAG>"
 	endFlag="<ENDFLAG>"
-	return temp[temp.find(startFlag)+len(startFlag):temp.find(endFlag):2]	#get text between start and end flags for randomization purposes and to add redundancy
+	return temp[temp.find(startFlag)+len(startFlag):temp.find(endFlag):2]	#only use text between start and end flags to allow for randomization and redundancy
 	#return temp
 
 answer="Start"	#use answer="Start" to begin
