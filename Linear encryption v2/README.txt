@@ -1,0 +1,1 @@
+This is the same as the Linear Encryption code, but with a slightly simpler decryption algorithm at the expense of a slightly longer coefficient and slightly more complicated coefficient generation code.
