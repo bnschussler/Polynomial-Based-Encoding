@@ -11,5 +11,11 @@ def response(s):	#get response from a string
 	#return temp
 
 answer="Input1"
+#Here are the passwords baked into this coeff value:
+	#"Input1
+	#Second input
+	#Dave
+	#16273548
+	#e
 
 print(response(answer))
