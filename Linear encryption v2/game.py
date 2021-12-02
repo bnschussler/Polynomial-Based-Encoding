@@ -10,6 +10,6 @@ def response(s):	#get response from a string
 	return temp[temp.find(startFlag)+len(startFlag):temp.find(endFlag):2]	#only use text between start and end flags to allow for randomization and redundancy
 	#return temp
 
-answer="Input1"	#use answer="Start" to begin
+answer="Input1"
 
 print(response(answer))
